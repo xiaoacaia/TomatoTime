@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Discipline_App</string>
+    <string name="btn">BUTTON</string>
+
+    <string name="prepare_dialog">添加待办</string>
+    <string name="desc_dialog">添加心得</string>
+    <string name="prepareTitle">请输入待办名称</string>
+    <string name="prepareNeedTime">请输入你需要花费的时间</string>
+    <string name="do_desc">请输入心得</string>
+
+
+    <string name="change_desc_string">修改心得</string>
+    <string name="change_desc_hint">请输入心得</string>
+
+
+    <!-- 番茄钟的两个事件 -->
+    <string name="tomato_1">15</string>
+    <string name="tomato_2">25</string>
+    <string name="tomato_1_s">15:00</string>
+
+    <!-- 最下面按钮描述 -->
+    <string name="plan">plan</string>
+    <string name="tomato">tomato</string>
+    <string name="alarm">alarm</string>
+    <string name="own">own</string>
+    <string name="stop">stop</string>
+    <string name="start">start</string>
+    <string name="restart">restart</string>
+    <string name="add">add</string>
+    <string name="prepare_start_word">开始</string>
+    <string name="timeline_backgroud">timeline_backgroud</string>
+    <string name="delete_desc">删除心得</string>
+    <string name="item_desc_hint">点击输入心得</string>
+
+
+</resources>

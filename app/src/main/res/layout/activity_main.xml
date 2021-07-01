@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:id="@+id/main_window"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+
+
+    <LinearLayout
+        android:background="@drawable/linearlayout_border"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        >
+
+
+
+        <ImageButton
+            android:layout_margin="4dp"
+            android:id="@+id/tomato"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:background="@android:color/transparent"
+            android:src="@drawable/tomato"
+            android:contentDescription="@string/tomato" />
+
+        <ImageButton
+            android:id="@+id/plan"
+            android:layout_margin="4dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/plan"
+            android:contentDescription="@string/plan" />
+
+
+<!--        <ImageButton-->
+<!--            android:id="@+id/alarm"-->
+<!--            android:layout_margin="4dp"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:scaleType="fitCenter"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            android:src="@drawable/alarm"-->
+<!--            android:contentDescription="@string/alarm" />-->
+
+
+        <ImageButton
+            android:id="@+id/own"
+            android:layout_margin="4dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:background="@android:color/transparent"
+            android:src="@drawable/own"
+            android:contentDescription="@string/own" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

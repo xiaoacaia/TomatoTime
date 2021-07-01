@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="4dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/toolbar_color"
+        android:contentDescription="@string/prepare_dialog"
+        android:gravity="center"
+        android:text="@string/prepare_dialog"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/prepareTitleDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginRight="4dp"
+        android:hint="@string/prepareTitle"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="4dp" />
+
+    <EditText
+        android:id="@+id/prepareNeedTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="9dp"
+        android:hint="@string/prepareNeedTime"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="4dp" />
+</LinearLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

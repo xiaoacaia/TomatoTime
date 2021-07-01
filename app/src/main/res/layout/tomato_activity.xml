@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:fitsSystemWindows="true">
+
+
+        <Button
+            android:id="@+id/leave_time"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity=""
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="@string/tomato_1_s"
+            android:textColor="@color/white"
+            android:textSize="70sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/leave_time"
+            app:layout_constraintVertical_bias="0.316"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:gravity="center"
+            tools:ignore="MissingConstraints"
+            android:id="@+id/linearLayout">
+
+            <ImageButton
+                android:layout_marginRight="50dp"
+                android:id="@+id/stop_tomato"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_pause"
+                tools:ignore="MissingConstraints"
+                tools:layout_conversion_absoluteHeight="67dp"
+                tools:layout_editor_absoluteY="515dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_conversion_absoluteWidth="88dp"
+                android:contentDescription="@string/stop"
+                android:layout_marginEnd="50dp" />
+
+            <ImageButton
+                android:id="@+id/continue_tomato"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_start"
+                tools:ignore="MissingConstraints"
+                tools:layout_conversion_absoluteHeight="67dp"
+                tools:layout_editor_absoluteY="515dp"
+                tools:layout_editor_absoluteX="88dp"
+                tools:layout_conversion_absoluteWidth="88dp"
+                android:contentDescription="@string/start" />
+
+
+            <ImageButton
+                android:layout_marginLeft="50dp"
+                android:id="@+id/restart_tomato"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_restart"
+                tools:ignore="MissingConstraints"
+                tools:layout_conversion_absoluteHeight="67dp"
+                tools:layout_editor_absoluteY="515dp"
+                tools:layout_editor_absoluteX="176dp"
+                tools:layout_conversion_absoluteWidth="88dp"
+                android:contentDescription="@string/restart"
+                android:layout_marginStart="50dp" />
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+<!--    <color name="teal_700">@android:color/transparent</color>-->
+    <color name="teal_700">#14B3B2</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#FAFAFA</color>
+
+    <!-- 时间轴圆圈 -->
+    <color name="black_semi">@color/toolbar_color</color>
+    <color name="black_semi4">#FCA6C3</color>
+    <color name="black_semi3">#3B3B3B</color>
+    <color name="black_semi2">#CFD8DD</color>
+    <!-- 时间轴颜色 -->
+    <color name="timeline_color">#CFD8DD</color>
+    <color name="timeline_color2">#4D4D4D</color>
+    <!-- 时间轴主题颜色 -->
+    <color name="timeline_content_color">@color/toolbar_color</color>
+    <color name="timeline_content_color2">#FCA6C3</color>
+    <!-- 心得颜色 -->
+    <color name="study_desc">#FDDEE9</color>
+
+
+    <color name="colorPrimary">@android:color/transparent</color>
+
+
+    <color name="toolbar_color">@color/teal_200</color>
+
+    253,222,233
+    <!-- 番茄钟颜色 -->
+    <color name="tomato_font_color">#c04232</color>
+</resources>
